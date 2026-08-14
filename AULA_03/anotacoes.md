@@ -52,7 +52,7 @@ sudo nano pg_hba.conf
 
 ![alt text](image-3.png)
 
-1. Usamos o 0.0.0.0/24 para que podemos acessar nosso servidor em qualquer lugar em todas as faixas de IP(que seria o /24)
+1. Usamos o 0.0.0.0/0 para que podemos acessar nosso servidor em qualquer lugar em todas as faixas de IP(que seria o /0)
 2. igualmente quando digitamos o 10.87.38.0/24 para que podemos acessar o servidor quando estevemos na outra sala.
 
 >Servidor de Desenvolvimento 
@@ -80,7 +80,7 @@ sudo systemctl status postgresql
 sudo systemctl start postgresql
 ```
 
-4. ele sobe o servidor
+4. ele verifica os status do servidor se pode iniciar 
 ```bash
 pg_lsclusters
 ```
