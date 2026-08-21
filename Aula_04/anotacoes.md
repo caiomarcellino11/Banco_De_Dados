@@ -32,7 +32,7 @@ Para criação do banco de dados, utilizamos os seguintes comandos:
 
 ```sql
 
-REATE TABLE produtos(
+CREATE TABLE produtos(
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY NOT NULL,
     nome VARCHAR(50) NOT NULL,
     preço NUMERIC(10,2) NOT NULL,
