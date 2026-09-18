@@ -116,4 +116,42 @@ FROM titulos
 ORDER BY estoque ASC
 LIMIT 5;
 ```
+---
+```sql
+-- 7. Livros do gênero Técnico
+SELECT nome, estoque
+FROM produtos
+WHERE genero = 'Técnico';
 
+
+-- 8. Livros que custam mais de R$ 200,00
+SELECT nome, preco
+FROM produtos
+WHERE preco > 200;
+
+
+-- 9. Livros com preço entre R$ 40,00 e R$ 70,00
+SELECT nome, preco
+FROM produtos
+WHERE preco BETWEEN 40 AND 70;
+
+
+-- 10. Livros com estoque abaixo de 5
+SELECT nome, estoque
+FROM produtos
+WHERE estoque < 5;
+
+
+-- 11. Livros publicados antes de 1900
+SELECT nome, ano_publicacao
+FROM produtos
+WHERE ano_publicacao < 1900
+ORDER BY ano_publicacao ASC;
+
+
+-- 12. Livros publicados entre 2010 e 2020
+SELECT nome, ano_publicacao, genero
+FROM produtos
+WHERE ano_publicacao BETWEEN 2010 AND 2020
+ORDER BY ano_publicacao ASC;
+```
