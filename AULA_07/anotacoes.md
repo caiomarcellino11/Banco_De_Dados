@@ -1,9 +1,9 @@
 ### HTTP
 
- - Get
- - Post
- - Delete
- - Put
+ - Get --> Leitura
+ - Post --> criação
+ - Delete --> atualização
+ - Put --> apagar
 
 ---
 
