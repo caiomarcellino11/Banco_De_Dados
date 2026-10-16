@@ -18,7 +18,7 @@ O Moba será a interface para acesso ao meu servidor de desenvolvimento.
 >O acesso, será realizado via SHH
 >credencias: `IP:192.168.10.80`username: `root`, Porta:`2222`
 
-para acessar use a senha: Caio13121113@
+para acessar use a senha: ********
 
 ---
 
